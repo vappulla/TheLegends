@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hp" type="id" />
+    <item name="partype" type="id" />
+    <item name="difficulty" type="id" />
+    <item name="mp" type="id" />
+    <item name="defense" type="id" />
+    <item name="blurb" type="id" />
+    <item name="attack" type="id" />
+    <item name="magic" type="id" />
+    <item name="champion_list" type="id" />
+</resources>

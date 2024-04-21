@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#bf9b30"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/champion_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mon" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#bf9b30"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/HPAndMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#bf9b30"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/AttackAndDef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#bf9b30"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/champion_image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:src="@drawable/mon" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="#bf9b30"-->
+
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#bf9b30"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/HPAndMP"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#bf9b30"-->
+<!--        android:textSize="18sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/AttackAndDef"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="#bf9b30"-->
+<!--        android:textSize="18sp" />-->
+
+<!--</LinearLayout>-->
+
+
+
+

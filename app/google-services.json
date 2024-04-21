@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "331594800405",
+    "project_id": "the-legends-ea66d",
+    "storage_bucket": "the-legends-ea66d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331594800405:android:c9e2e9ecb361115a981d1c",
+        "android_client_info": {
+          "package_name": "com.example.thelegends"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwJCkNUK7iSVL4pT3Ci1vaM33AQWHUHTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

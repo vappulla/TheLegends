@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient"
+    tools:context=".ChampionDetailsActivity">
+
+    <TextView
+        android:id="@+id/txtChampionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Champion Name"
+        android:textColor="#bf9b30"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtChampionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtChampionName"
+        android:text="Champion Title"
+        android:textColor="#bf9b30"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtChampionHPAndMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtChampionTitle"
+        android:textColor="#bf9b30"
+        android:text="HP: 0 MP: 0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtChampionAttackAndDef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtChampionHPAndMP"
+        android:textColor="#bf9b30"
+        android:text="Attack: 0 Def: 0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtChampionBlurb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtChampionAttackAndDef"
+        android:textColor="#bf9b30"
+        android:layout_marginTop="16dp"
+        android:text="Champion Blurb"
+        android:textSize="16sp" />
+</RelativeLayout>

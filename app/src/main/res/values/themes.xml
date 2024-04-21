@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TheLegends" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/black</item> <!-- This line changes the color of the status bar -->
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/rakkas</item>
+    </style>
+
+    <style name="Theme.TheLegends" parent="Base.Theme.TheLegends" />
+
+
+</resources>
